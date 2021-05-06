@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Mission Healthy</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="home_treatment">Home Treatment</string>
+    <string name="youtube">Youtube</string>
+    <string name="health_products">Health Products</string>
+    <string name="highlights">Highlights</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="playlist">PlayList</string>
+    <string name="free_health_videos">Free Health Videos</string>
+    <string name="weight_loss_diet_plan">Weight Loss Diet Plan</string>
+    <string name="weight_gain_diet_plan">Weight Gain Diet Plan</string>
+    <string name="hyperthyroidism_diet_plan">Hyperthyroidism Diet Plan</string>
+    <string name="hypothyrodism_diet_plan">Hypothyroidism Diet Plan</string>
+    <string name="skin_care_diet_plan">Skin Care Diet Plan</string>
+    <string name="our_free_service">Our Free Service</string>
+    <string name="our_paid_service">Our Paid Service</string>
+    <string name="about_us">About Us</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="product">Product</string>
+    <string name="copy_right" />
+</resources>

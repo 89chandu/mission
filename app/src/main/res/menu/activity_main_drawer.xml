@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/logo"
+            android:title="@string/free_health_videos"
+            android:menuCategory="secondary"
+            />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/logo"
+            android:title="@string/our_free_service"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/logo"
+            android:title="@string/our_paid_service"
+            android:menuCategory="secondary"
+            />
+        <item
+            android:id="@+id/foxNewsFragment"
+            android:icon="@drawable/logo"
+            android:title="@string/about_us"
+            android:menuCategory="secondary"
+            />
+        <item
+            android:id="@+id/skyNewsFragment"
+            android:icon="@drawable/logo"
+            android:title="@string/contact_us"
+            android:menuCategory="secondary"
+            />
+<!--        <item-->
+<!--            android:id="@+id/healthProducts"-->
+<!--            android:icon="@drawable/logo"-->
+<!--            android:title="@string/health_products"-->
+<!--            android:menuCategory="secondary"-->
+<!--            />-->
+        <item
+            android:id="@+id/playlist"
+            android:icon="@drawable/logo"
+            android:title="@string/playlist"
+            android:menuCategory="secondary"
+            />
+        <item
+            android:id="@+id/products"
+            android:icon="@drawable/logo"
+            android:title="@string/health_products"
+            android:menuCategory="secondary"
+            />
+    </group>
+
+    <item android:title="Upcoming"
+        android:menuCategory="secondary">
+        <menu>
+            <item
+                android:id="@+id/ny"
+                android:icon="@drawable/logo"
+                android:title="@string/weight_loss_diet_plan" />
+            <item
+                android:id="@+id/ny2"
+                android:icon="@drawable/logo"
+                android:title="@string/weight_gain_diet_plan" />
+            <item
+                android:id="@+id/ny3"
+                android:icon="@drawable/logo"
+                android:title="@string/hyperthyroidism_diet_plan" />
+            <item
+                android:id="@+id/ny4"
+                android:icon="@drawable/logo"
+                android:title="@string/hypothyrodism_diet_plan" />
+            <item
+                android:id="@+id/ny5"
+                android:icon="@drawable/logo"
+                android:title="@string/skin_care_diet_plan" />
+
+
+        </menu>
+
+    </item>
+
+
+</menu>
+
+
+

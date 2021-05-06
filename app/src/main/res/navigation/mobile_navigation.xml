@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.chandu.missionhealthy.Fragment.FreeHealthVideos"
+        android:label="@string/free_health_videos"
+        tools:layout="@layout/free_health_videos" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.chandu.missionhealthy.Fragment.OurFreeService"
+        android:label="@string/our_free_service"
+        tools:layout="@layout/ourfreeservice" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.chandu.missionhealthy.Fragment.OurPaidService"
+        android:label="@string/our_paid_service"
+        tools:layout="@layout/ourpaidservice" />
+    <fragment
+        android:id="@+id/foxNewsFragment"
+        android:name="com.chandu.missionhealthy.Fragment.AboutUs"
+        android:label="@string/about_us"
+        tools:layout="@layout/about_us" />
+    <fragment
+        android:id="@+id/skyNewsFragment"
+        android:name="com.chandu.missionhealthy.Fragment.ContactUs"
+        android:label="@string/contact_us"
+        tools:layout="@layout/contactus" />
+    <fragment
+        android:id="@+id/healthProducts"
+        android:name="com.chandu.missionhealthy.Fragment.HealthProducts"
+        android:label="fragment_health_products"
+        tools:layout="@layout/activity_main" />
+    <fragment
+        android:id="@+id/playlist"
+        android:name="com.chandu.missionhealthy.Fragment.Playlist"
+        android:label="fragment_playlist"
+        tools:layout="@layout/fragment_playlist" />
+    <fragment
+        android:id="@+id/products"
+        android:name="com.chandu.missionhealthy.Products"
+        android:label="fragment_products"
+        tools:layout="@layout/fragment_products" />
+</navigation>

@@ -7,7 +7,10 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
 
+import com.chandu.missionhealthy.Model.WebViewController;
 import com.chandu.missionhealthy.R;
 
 /**
@@ -60,7 +63,17 @@ public class Playlist extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_playlist, container, false);
+
+        View view = inflater.inflate(R.layout.fragment_playlist, container, false);
+
+
+        WebView webView=view.findViewById(R.id.playlistweb);
+        webView.loadUrl("https://www.youtube.com/channel/UCn-QqRGTxmsFdhOTI3qLLzQ/videos");
+        webView.setWebViewClient(new WebViewController());
+        WebSettings webSettings = webView.getSettings();
+        webSettings.setJavaScriptEnabled(true);
+
+        return view;
+
     }
 }

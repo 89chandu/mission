@@ -28,6 +28,7 @@ public class FreeHealthVideos extends Fragment {
         View root = inflater.inflate(R.layout.free_health_videos, container, false);
 
         WebView webView=root.findViewById(R.id.YotubeWeb);
+//        webView.loadUrl("https://forms.gle/UU6aNfeMJPo6UtUi7");
         webView.loadUrl("https://www.youtube.com/channel/UCn-QqRGTxmsFdhOTI3qLLzQ/videos");
         webView.setWebViewClient(new WebViewController());
         WebSettings webSettings = webView.getSettings();

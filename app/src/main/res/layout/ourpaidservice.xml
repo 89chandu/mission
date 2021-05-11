@@ -1,17 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragment.OurPaidService">
+    tools:context="com.chandu.missionhealthy.Fragment.OurPaidService">
 
-    <WebView
-        android:id="@+id/paid_service"
+    <RelativeLayout
+        android:id="@+id/background"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_height="250dp"
+        android:background="@drawable/aboutp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/background"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="-100dp">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/aboutp"
+            app:civ_border_color="#BCffffff"
+            app:civ_border_width="10dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="bottom">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="97dp"
+                android:fontFamily="@font/archivo_black"
+                android:text="SHUBHAM GUPTA"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="M.D. Accupressure"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:layout_marginRight="6dp"
+        android:fontFamily="@font/archivo_black"
+        android:gravity="center"
+        android:text="Fee According To Diseas And Problem"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="410dp"
+        android:fontFamily="@font/andada"
+        android:gravity="center"
+        android:text="Basic Consultation Fee - 50"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="453dp"
+        android:fontFamily="@font/andada"
+        android:gravity="center"
+        android:text="Accupressure And Sujok Fee - 200"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="496dp"
+        android:fontFamily="@font/andada"
+        android:gravity="center"
+        android:text="Aromatherapy Fee - 100"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="540dp"
+        android:fontFamily="@font/andada"
+        android:gravity="center"
+        android:text="Vedic Nutrion Fee - 200/Month"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+
+
+</RelativeLayout>

@@ -21,7 +21,7 @@
             android:menuCategory="secondary"
             />
         <item
-            android:id="@+id/foxNewsFragment"
+            android:id="@+id/aboutBtn"
             android:icon="@drawable/logo"
             android:title="@string/about_us"
             android:menuCategory="secondary"

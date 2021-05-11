@@ -25,13 +25,13 @@ public class OurPaidService extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         galleryViewModel =
                 new ViewModelProvider(this).get(HomeViewModel.class);
-        View root = inflater.inflate(R.layout.ourpaidservice, container, false);
+        View root = inflater.inflate(R.layout.paidservice, container, false);
 
-        WebView webView=root.findViewById(R.id.paid_service);
-        webView.loadUrl("https://www.google.com/");
-        webView.setWebViewClient(new WebViewController());
-        WebSettings webSettings = webView.getSettings();
-        webSettings.setJavaScriptEnabled(true);
+//        WebView webView=root.findViewById(R.id.paid_service);
+//        webView.loadUrl("https://www.google.com/");
+//        webView.setWebViewClient(new WebViewController());
+//        WebSettings webSettings = webView.getSettings();
+//        webSettings.setJavaScriptEnabled(true);
 
 //        final TextView textView = root.findViewById(R.id.text_gallery);
         galleryViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {

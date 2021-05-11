@@ -23,28 +23,27 @@
         android:label="@string/our_paid_service"
         tools:layout="@layout/ourpaidservice" />
     <fragment
-        android:id="@+id/foxNewsFragment"
-        android:name="com.chandu.missionhealthy.Fragment.AboutUs"
-        android:label="@string/about_us"
-        tools:layout="@layout/about_us" />
-    <fragment
         android:id="@+id/skyNewsFragment"
         android:name="com.chandu.missionhealthy.Fragment.ContactUs"
         android:label="@string/contact_us"
         tools:layout="@layout/contactus" />
     <fragment
         android:id="@+id/healthProducts"
-        android:name="com.chandu.missionhealthy.Fragment.HealthProducts"
-        android:label="fragment_health_products"
+        android:name="com.chandu.missionhealthy.Products"
+        android:label="Health Products"
         tools:layout="@layout/activity_main" />
     <fragment
         android:id="@+id/playlist"
         android:name="com.chandu.missionhealthy.Fragment.Playlist"
-        android:label="fragment_playlist"
+        android:label="Playlist"
         tools:layout="@layout/fragment_playlist" />
     <fragment
         android:id="@+id/products"
         android:name="com.chandu.missionhealthy.Products"
-        android:label="fragment_products"
+        android:label="Health Products"
         tools:layout="@layout/fragment_products" />
+    <activity
+        android:id="@+id/aboutBtn"
+        android:name="com.chandu.missionhealthy.About"
+        android:label="AboutUs" />
 </navigation>

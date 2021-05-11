@@ -29,4 +29,6 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="product">Product</string>
     <string name="copy_right" />
+    <string name="copyright" />
+
 </resources>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
         <item>@font/andada</item>
         <item>@font/archivo_black</item>
+        <item>@font/palanquin_dark_medium</item>
     </array>
 </resources>

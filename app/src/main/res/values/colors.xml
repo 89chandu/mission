@@ -3,11 +3,18 @@
     <color name="purple_200">#4ABD1A</color>
     <color name="purple_500">#35EC2F</color>
     <color name="purple_700">#35EC2F</color>
-    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_200">#9FF13F</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="yellow">#f4d300</color>
+    <color name="lightyellow">#BFAE16</color>
+    <color name="orderButtonBackground">#FFC107</color>
+    <color name="gradientEndColor">#FDE02F</color>
+    <color name="etStrokeColor">#A89202</color>
+    <color name="myfav">#F1440E</color>
+
 </resources>

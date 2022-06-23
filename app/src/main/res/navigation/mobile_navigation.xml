@@ -29,7 +29,7 @@
         tools:layout="@layout/contactus" />
     <fragment
         android:id="@+id/healthProducts"
-        android:name="com.chandu.missionhealthy.Products"
+        android:name="com.chandu.missionhealthy.Fragment.Products"
         android:label="Health Products"
         tools:layout="@layout/activity_main" />
     <fragment
@@ -39,11 +39,16 @@
         tools:layout="@layout/fragment_playlist" />
     <fragment
         android:id="@+id/products"
-        android:name="com.chandu.missionhealthy.Products"
+        android:name="com.chandu.missionhealthy.Fragment.Products"
         android:label="Health Products"
         tools:layout="@layout/fragment_products" />
     <activity
         android:id="@+id/aboutBtn"
-        android:name="com.chandu.missionhealthy.About"
+        android:name="com.chandu.missionhealthy.Activity.About"
         android:label="AboutUs" />
+    <fragment
+        android:id="@+id/privacyPolicy"
+        android:name="com.chandu.missionhealthy.Fragment.PrivacyPolicy"
+        android:label="Privacy Policy"
+        tools:layout="@layout/fragment_privacy_policy" />
 </navigation>

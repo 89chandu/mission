@@ -3,58 +3,44 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <group android:checkableBehavior="single">
+
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/logo"
-            android:title="@string/free_health_videos"
-            android:menuCategory="secondary"
+            android:id="@+id/paid_service"
+            android:icon="@drawable/paid"
+            android:title="@string/our_paid_service"
+
             />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/logo"
+            android:id="@+id/free_service"
+            android:icon="@drawable/frees"
             android:title="@string/our_free_service"
-            android:menuCategory="secondary"/>
+            />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/logo"
-            android:title="@string/our_paid_service"
-            android:menuCategory="secondary"
+            android:id="@+id/playlist"
+            android:icon="@drawable/play"
+            android:title="@string/playlist"
             />
         <item
             android:id="@+id/aboutBtn"
-            android:icon="@drawable/logo"
+            android:icon="@drawable/aboutttt"
             android:title="@string/about_us"
-            android:menuCategory="secondary"
             />
         <item
-            android:id="@+id/skyNewsFragment"
-            android:icon="@drawable/logo"
+            android:id="@+id/contact"
+            android:icon="@drawable/contactsss"
             android:title="@string/contact_us"
-            android:menuCategory="secondary"
-            />
-<!--        <item-->
-<!--            android:id="@+id/healthProducts"-->
-<!--            android:icon="@drawable/logo"-->
-<!--            android:title="@string/health_products"-->
-<!--            android:menuCategory="secondary"-->
-<!--            />-->
-        <item
-            android:id="@+id/playlist"
-            android:icon="@drawable/logo"
-            android:title="@string/playlist"
-            android:menuCategory="secondary"
             />
         <item
-            android:id="@+id/products"
-            android:icon="@drawable/logo"
-            android:title="@string/health_products"
-            android:menuCategory="secondary"
+            android:id="@+id/privacyPolicy"
+            android:icon="@drawable/privacy"
+            android:title="@string/privacy_policy"
             />
+        
     </group>
 
-    <item android:title="Upcoming"
-        android:menuCategory="secondary">
+    <item android:title="Upcoming">
         <menu>
+            <group android:checkableBehavior="single">
             <item
                 android:id="@+id/ny"
                 android:icon="@drawable/logo"
@@ -76,7 +62,7 @@
                 android:icon="@drawable/logo"
                 android:title="@string/skin_care_diet_plan" />
 
-
+            </group>
         </menu>
 
     </item>

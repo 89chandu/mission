@@ -1,11 +1,48 @@
 <resources>
     <string name="app_name">Mission Healthy</string>
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+
+    <string-array name="Chart_Name">
+        <item>Weight Loss Diet Plan </item>
+        <item>Weight Gain Diet Plan </item>
+        <item>Weight Loss Diet Plan </item>
+        <item>Weight Loss Diet Plan </item>
+        <item>Weight Loss Diet Plan </item>
+        <item>Weight Loss Diet Plan </item>
+        <item>Weight Loss Diet Plan </item>
+    </string-array>
+
+    <string name="accu_kit">Acupressure Stimulator, Bed Sheet, Foot Roller and Acupuncture Needle  Sujok Needle.
+        Our offered products are highly demanded in market. The entire range is the result of years of
+        research and understanding the ideal material composition to create a good performing shoe sole.
+        Being an organization, we ensure that all our offered range is in compliance with
+        standards and are optimum in performance. Thus,
+        the procured as well as the manufactured range is subjected to stringent quality testing at our premises. Incorporation of
+        client centric approaches such as timely delivery, safe packaging of products and
+        hassle free monetary transaction have enabled us to build a vast customer base across the market,Acupressure Foot Roller
+        and pain relief. Press your foot over the roller daily 5-10 minutes and warm up your leg. Wooden Ball-For special
+        points of your Hands, Foot and Body. Roll in your hands for 5 to 10 minutes daily. Best for middle part of palm finger
+        relaxation. INDICATIONS: Stimulates acupressure points activates blood circulation, tiredness, freshness, effective
+        in shoulder pain  total health. This is in pyramidal ball shape. hence it is known as energy-ball.
+        Wooden karela-For special point of your Hands.</string>
+    <string name="accu_mate">Power Mat - TOP - SELLING PAIN RELIEVER: It is a new computerized design with energy centre, pyramid yantra orbit and innovative new foot shape design to cover all important pressure points. Warm up your Body by jogging for three to five minutes daily. Morning freshness with total health. Also gives relief in sciatica, leg pain, cramps, heel pain, knee pain, piles, migraine, sinus, insomnia, constipation, gastric, acidity, diabetes, indigestion and renal problems | Sujok Ring (Silver) - For pressure of your Fingers Points. Use: Roll it in finger with mild pressure. Designed for thorough stimulation of the finger toes. Regular application enhances your blood circulation and promotes effectiveness on the organ at large. | Energy Ball (Wooden) - For special points of your Hands, Foot and Body. Roll in your hands for 5 to 10 minutes daily. Best for middle part of palm and finger relaxation. Stimulates acupressure points activates blood circulation, tiredness, freshness, effective in shoulder pain and total health. This is in pyramidal ball shape. hence it is known as energy-ball. | Acupressure Jimmy - Wooden - For special Su-Jok points f your finger. Use it in Su-Jok treatment. Essential tool for Su-Jok Therapist And Acupressurist. | Karela Roll (Wooden) - For special point of your Hands. Roll in your hands 5 to 10 minutes daily. Stimulates Acupressure points activates blood circulation, tiredness, freshness and total health. It is made up of standard wood. It is known as wooden karela. | Hand Roll (Soft point) - Pressing all points of Hand and Finger at a time. Roll it over responsive center (hand and foot). The roller is a useful device which is used to stimulate the acupressure points located in the hands. By doing so, it is said to benefit various systems in the body such as, aiding blood circulation, improving digestion, renewed energy and pain relief. Do this for about 3-5 minutes daily, before meal times for best results. | Shoe Sole - Wonder Height increaser that helps you
+
+.</string>
+    <string name="sujok_ring">Su-Jok rings are traditionally used to give the body energy,concentration,health and more This Su-Jok therapy ring is used while you study, work on computer or after playing instruments like guitar, harmonium and tabla or driving a car.When your fingers get tired and
+        your mind distracted, or you naturally have finger numbness,try the acupressure ring. Simply wear the Su-Jok therapy ring on different fingers alternatively and roll it repeatedly in and out.Be amazed with the result in seconds!
+No side effects. Easy-to-use. One size fits all.
+        Everyone in the family can benefit. Ideal for House Wives, Office Executives, Old , Students, Musician and Sports Persons. The acupressure sujok ring helps to stimulate blood circulation, oxygen flow to every part of the body and you will feel much more energetic and far less stressed. Power Thumb is a handy tool to be worn on your thumb..</string>
+
+    <string name="descrptionFood">A samosa is a South Asian fried or baked pastry with a savory
+        filling like spiced potatoes, onions, peas, beef and other meats, or lentils.</string>
+
 
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
@@ -30,5 +67,6 @@
     <string name="product">Product</string>
     <string name="copy_right" />
     <string name="copyright" />
+    <string name="privacy_policy">Privacy Policy</string>
 
 </resources>

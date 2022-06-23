@@ -10,8 +10,8 @@ android {
         applicationId "com.chandu.missionhealthy"
         minSdkVersion 21
         targetSdkVersion 29
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -19,6 +19,12 @@ android {
     buildFeatures {
         viewBinding true
     }
+
+    buildFeatures {
+        dataBinding true
+    }
+
+
 
     buildTypes {
         release {
@@ -42,7 +48,6 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment:2.3.5'
     implementation 'androidx.navigation:navigation-ui:2.3.5'
     implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.3.1'
-//    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1'
     implementation "androidx.recyclerview:recyclerview:1.1.0"
     implementation "androidx.cardview:cardview:1.0.0"
     implementation 'com.github.medyo:android-about-page:1.2.6'
@@ -54,7 +59,11 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'com.sun.mail:android-mail:1.6.0'
     implementation 'com.sun.mail:android-activation:1.6.0'
+    implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5'
 
     compile 'com.mikhaellopez:circularimageview:3.0.2'
+
+    implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
+    
 //    implementation project(':app')
 }

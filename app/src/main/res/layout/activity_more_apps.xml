@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f8f7fc"
+        tools:context=".Activity.MoreAppsActivity">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:background="@color/design_default_color_primary">
+
+                    <ImageView
+                        android:id="@+id/logo"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/maind"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="More Apps Created By Us"
+                        android:layout_below="@id/logo"
+                        android:layout_centerHorizontal="true"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="10dp"/>
+
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/relativelayout"
+                    android:orientation="vertical">
+
+
+                    <RelativeLayout
+                        android:id="@+id/whatsapp"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/rectangle"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginTop="5dp"
+                        android:elevation="3dp"
+                        android:padding="12dp"
+                        android:layout_marginBottom="5dp">
+
+                        <ImageView
+                            android:id="@+id/whatslogo"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/ic_launcher"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="12dp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_centerVertical="true"
+                            android:layout_margin="10dp"
+                            android:layout_toRightOf="@id/whatslogo"
+                            android:layout_toLeftOf="@id/whatsarr">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Mission Healthy"
+                                android:textSize="22sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="12dp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Download Mission Healthy"
+                                android:textSize="15sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="12dp" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/ic_arrow"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="10dp"
+                            android:id="@+id/whatsarr"/>
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/instagram"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/rectangle"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginTop="5dp"
+                        android:elevation="3dp"
+                        android:padding="12dp"
+                        android:layout_marginBottom="5dp">
+
+                        <ImageView
+                            android:id="@+id/instalogo"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/logoapp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="12dp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_centerVertical="true"
+                            android:layout_margin="10dp"
+                            android:layout_toRightOf="@id/instalogo"
+                            android:layout_toLeftOf="@id/instaarr">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Story Saver App"
+                                android:textSize="22sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="12dp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="All In One Downloader "
+                                android:textSize="15sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="12dp" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/ic_arrow"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="10dp"
+                            android:id="@+id/instaarr"/>
+
+                    </RelativeLayout>
+
+
+                    <TextView
+                        android:id="@id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/andada"
+                        android:layout_marginTop="240dp"
+                        android:text="Devloper"
+                        android:textColor="#4CAF50"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/andada"
+                        android:text="Chandu Bopche"
+                        android:textColor="#4CAF50"
+                        android:textSize="23sp" />
+
+
+
+
+                </LinearLayout>
+
+
+
+
+            </RelativeLayout>
+
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+</layout>
